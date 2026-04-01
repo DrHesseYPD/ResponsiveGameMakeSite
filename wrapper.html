@@ -48,8 +48,8 @@ function resizeGame() {
   const containerHeight = container.clientHeight;
 
   const scale = Math.min(
-    containerWidth / gameWidth,
-    containerHeight / gameHeight
+    floor(containerWidth / gameWidth),
+    floor(containerHeight / gameHeight)
   );
 
   iframe.style.width = gameWidth + "px";
