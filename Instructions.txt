@@ -1,0 +1,14 @@
+This shows how a gamemaker html game can be embedded into a website.
+
+1. Build game using HTML5 target.
+2. Save the folder.
+3. Create a github repository and load the game files.
+4. Deploy the repository as a github page.
+5. Make a copy of the wrapper.html file here.  Update lines 44 and 45
+   with the games width and height.
+6. Upload wrapper.html to the respoitory.
+7. Use the client-index.html file here as a guide for embedding the game
+   from the repository.
+   - embed the wrapper.html from the repository in the iframe.
+   - use src="<repository gitpage url>/wrapper.html"
+   - set the .container aspect-ratio : gamewidth / gameheight

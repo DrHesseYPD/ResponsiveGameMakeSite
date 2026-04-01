@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    .game-container {
+      width: 90%;
+      /*max-width: 1000px;*/
+      margin: 0 auto;
+      aspect-ratio: 1366 / 768; /* Change to match your game */
+	  background: black;
+    }
+
+    .game-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="game-container">
+    <iframe 
+      src="https://drhesseypd.github.io/TestGameMakerSite/wrapper.html"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
